@@ -14,3 +14,8 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["bananas", "apples"]
+your_list = ["bread", "pudding", "apples"]
+our_list = my_list + your_list
+puts our_list.sort.uniq
